@@ -5,10 +5,10 @@ public class Kaushal1 {
 	private int rollNo;
 	private double gpa;
 	
-	public Kaushal1(String c, int r, double g) {
-		cls = c;
-		rollNo = r;
-		gpa = g;
+	public Kaushal1(String cls, int rollNo, double gpa) {
+		this.cls=cls;
+		this.rollNo=rollNo;
+		this.gpa=gpa;
 	}
 	
 	public void show() {
